@@ -1,6 +1,6 @@
 <?php
 
-namespace Descom\Common;
+namespace Descom\Dev;
 
 class CsFixer
 {

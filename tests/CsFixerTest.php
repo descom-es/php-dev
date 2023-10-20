@@ -1,8 +1,8 @@
 <?php
 
-namespace Descom\Skeleton\Test;
+namespace Descom\Dev\Test;
 
-use Descom\Common\CsFixer;
+use Descom\Dev\CsFixer;
 use PHPUnit\Framework\TestCase;
 
 class CsFixerTest extends TestCase

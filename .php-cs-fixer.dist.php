@@ -11,5 +11,5 @@ $finder = Symfony\Component\Finder\Finder::create()
     ->ignoreVCS(true);
 
 return (new PhpCsFixer\Config())
-    ->setRules(Descom\Common\CsFixer::rules())
+    ->setRules(Descom\Dev\CsFixer::rules())
     ->setFinder($finder);

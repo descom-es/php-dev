@@ -1,11 +1,11 @@
 {
-    "name": "descom/common",
-    "description": "Package to PHP projects in Descom.es",
+    "name": "descom/dev",
+    "description": "Package to PHP Developer projects in Descom.es",
     "type": "library",
     "require": {
         "php": "^8.0"
     },
-    "homepage": "https://github.com/descom-es/php-common",
+    "homepage": "https://github.com/descom-es/php-dev",
     "license": "MIT",
     "authors": [
         {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Descom\\Common\\": "src"
+            "Descom\\Dev\\": "src"
         }
     },
     "scripts": {
