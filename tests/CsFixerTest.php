@@ -2,12 +2,13 @@
 
 namespace Descom\Skeleton\Test;
 
+use Descom\Common\CsFixer;
 use PHPUnit\Framework\TestCase;
 
-class SkeletonTest extends TestCase
+class CsFixerTest extends TestCase
 {
     public function testExample()
     {
-        $this->assertTrue(true);
+        $this->assertIsArray(CsFixer::rules());
     }
 }
