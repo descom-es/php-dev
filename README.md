@@ -1,4 +1,4 @@
-# php-skeleton
+# PHP Dev to Descom.es
 
 ## Install
 
@@ -9,6 +9,10 @@ composer require --dev descom/dev
 ```
 
 ## Usage
+
+### PHP CS Fixer
+
+Create file `.php-cs-fixer.dist` in root project with content:
 
 ```php
 $finder = Symfony\Component\Finder\Finder::create()
@@ -24,4 +28,17 @@ $finder = Symfony\Component\Finder\Finder::create()
 return (new PhpCsFixer\Config())
     ->setRules(Descom\Dev\CsFixer::rules())
     ->setFinder($finder);
+```
+
+#### Configure PHP CS Fixer in VS Code
+
+Install extension [PHP CS Fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
+
+With this settings:
+
+```json
+{
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer"
+}
 ```
