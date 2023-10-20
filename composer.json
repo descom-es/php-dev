@@ -1,11 +1,11 @@
 {
-    "name": "descom/skeleton",
-    "description": "package_description",
+    "name": "descom/common",
+    "description": "Package to PHP projects in Descom.es",
     "type": "library",
     "require": {
         "php": "^8.0"
     },
-    "homepage": "https://github.com/descom/skeleton",
+    "homepage": "https://github.com/descom-es/php-common",
     "license": "MIT",
     "authors": [
         {
@@ -22,18 +22,16 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.4",
-        "phpunit/phpunit": "^9.5",
-        "phpstan/phpstan": "^1.9"
+        "friendsofphp/php-cs-fixer": "^3.35",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
-            "Descom\\Skeleton\\": "src"
+            "Descom\\Common\\": "src"
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit --colors=always",
-        "style": "vendor/bin/php-cs-fixer fix",
-        "analyse": "vendor/bin/phpstan analyse"
+        "style": "vendor/bin/php-cs-fixer fix"
     }
 }

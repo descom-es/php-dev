@@ -5,7 +5,7 @@
 Via Composer
 
 ```bash
-composer require descom/package_name
+composer require descom/common
 ```
 
 ## Usage
