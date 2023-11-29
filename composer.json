@@ -2,6 +2,7 @@
     "name": "descom/dev",
     "description": "Package to PHP Developer projects in Descom.es",
     "type": "library",
+    "keywords": ["dev"],
     "require": {
         "php": "^8.0"
     },
