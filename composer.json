@@ -34,5 +34,8 @@
     "scripts": {
         "test": "vendor/bin/phpunit --colors=always",
         "style": "vendor/bin/php-cs-fixer fix"
+    },
+    "suggest": {
+        "friendsofphp/php-cs-fixer": "Required to apply styles"
     }
 }
