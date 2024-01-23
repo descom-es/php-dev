@@ -12,9 +12,11 @@ composer require --dev descom/dev
 
 ### PHP CS Fixer
 
-Create file `.php-cs-fixer.dist` in root project with content:
+Create file `.php-cs-fixer.dist.php` in root project with content:
 
 ```php
+<?php
+
 $finder = Symfony\Component\Finder\Finder::create()
     ->in([
         __DIR__.'/src',
