@@ -12,6 +12,12 @@ composer require --dev descom/dev
 
 ### PHP CS Fixer
 
+Install php-cs-fixer.
+
+```bash
+composer require --dev friendsofphp/php-cs-fixer
+```
+
 Create file `.php-cs-fixer.dist.php` in root project with content:
 
 ```php
