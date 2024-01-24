@@ -20,4 +20,4 @@ EOF
 )
 
 composer require -n --dev descom/dev friendsofphp/php-cs-fixer &&
-echo CS_FIXER_CONFIG > .php-cs-fixer.dist.php
+echo "$CS_FIXER_CONFIG" > .php-cs-fixer.dist.php
