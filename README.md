@@ -12,11 +12,13 @@ composer require --dev descom/dev
 
 ### PHP CS Fixer
 
-Using setup.sh.
+#### Using setup.sh
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/descom-es/php-dev/master/setup.sh)
 ```
+
+#### Manually
 
 Install php-cs-fixer.
 
