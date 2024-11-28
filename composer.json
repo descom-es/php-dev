@@ -6,7 +6,7 @@
         "dev"
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.2"
     },
     "homepage": "https://github.com/descom-es/php-dev",
     "license": "MIT",
