@@ -9,6 +9,6 @@ class CsFixerTest extends TestCase
 {
     public function testExample()
     {
-        $this->assertIsArray(CsFixer::rules());
+        $this->assertTrue(CsFixer::rules()['@PSR12']);
     }
 }
